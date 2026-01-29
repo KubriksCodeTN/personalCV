@@ -1,3 +1,3 @@
 # personalCV
 
-Personal euroCV
+Personal euroCV and CV
