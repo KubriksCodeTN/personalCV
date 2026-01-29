@@ -1,0 +1,106 @@
+\documentclass[a4paper,sans]{moderncv}
+\moderncvstyle{banking} 
+\moderncvcolor{blue} 
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan, % O il colore che preferisci per i link
+}
+
+% Personal Data
+\name{}{Patrick Pastorelli}
+\email{patrick.work.p@gmail.com}
+\social[linkedin]{patrick-pastorelli}
+\social[github]{KubriksCodeTN}
+\social[orcid]{0009-0002-9272-629X}
+
+\begin{document}
+\makecvtitle
+
+\begin{quote}
+    \small{MSc in Computer Science (University of Trento) specializing in embedded low-power systems and hardware–software co-design. Author of two IEEE publications in robotics and intermittent computing, including a first-author paper in RAL-L 2025. Experienced competitive programmer and SWERC 2022/2023 regional contestant.}
+\end{quote}
+
+\section{Research Interests}
+\small{My research interests focus on intermittent computing and energy harvesting for battery-free IoT systems. I have research experience the design of intermittent systems and ultra-low-power communication, including wake-up radios, as well as modular firmware for resource-constrained devices. I also have research experience in robotic path planning and autonomous navigation.}
+
+\section{Experience}
+\cventry{2025}{Internship in PCB Design with Altium Designer}{University of Trento}{}{}{
+Full PCB design cycle using Altium Designer schematic capture and 2-layer layout design and optimization.
+}
+\cventry{2025}{Teaching Assistant in Computer Science}{University of Trento}{}{}{
+Weekly tutoring sessions for undergraduate students, providing support in C++ debugging, memory management, and algorithmic logic during laboratory sessions and assisted official examinations.
+}
+\cventry{2024--2025}{Research Collaborator}{University of Trento}{Trento, Italy}{}{
+Collaborated with Prof. Luigi Palopoli and Prof. Davide Brunelli on two main research tracks:
+\begin{itemize}
+    \item Robotics: Developed a novel polyline smoothing algorithm for robot path planning, leading to a publication in IEEE RA-L (also presented at IROS 2025).
+    \item Embedded Systems: HW-SW co-design of an intermittent computing scheduler for the CapDYN smart battery system, presented at IEEE Sensors 2025.
+\end{itemize}
+}
+\cventry{2024}{Image compression pipeline in CUDA with CovisionLab}{University of Trento and CovisionLab (Bozen, Italy)}{}{}{
+Development and analysis of a high-speed image compression pipeline to accelerate data ingestion of AI models using CUDA. The project also included an evaluation of CUDA Optical Flow.
+}
+
+\section{Publications}
+
+\cvitem{2025}{
+\begin{minipage}[t]{0.85\textwidth}
+Every Microjoule Counts: Zero-Failure Task Execution in Batteryless Sensors \\
+M. Nardello, M. Doglioni, S. Dagnino, \textbf{P. Pastorelli}, and D. Brunelli.\\
+IEEE Sensors 2025.\\
+\small{\textit{Currently invited by IEEE Sensors Journal for a Special Issue on Selected Papers from the IEEE Sensors 2025 Conference}}
+\end{minipage}
+}
+\cvitem{2025}{
+\begin{minipage}[t]{0.85\textwidth}
+\href{https://arxiv.org/pdf/2409.09816v2}{Fast Shortest Path Polyline Smoothing With G1 Continuity and Bounded Curvature}\\ 
+\textbf{P. Pastorelli}, S. Dagnino, E. Saccon, M. Frego and L. Palopoli. \\
+IEEE Robotics and Automation Letters, Volume: 10, Issue: 4.\\
+\small{\textit{Also presented at IRIM 2024 and IROS 2025}}
+\end{minipage}
+}
+
+\newpage
+
+\section{Technical Skills}
+\cvitem{Languages}{C++23, Rust, C, Python, Bash, CUDA, Haskell}
+\cvitem{Embedded}{STM32, ESP32, TI MSP430, FreeRTOS, ROS2, HAL/LL Drivers, PCB Design (Altium)}
+\cvitem{Wireless}{UWB, LoRa, IEEE 802.15.4, Sub-Ghz, WURs}
+\cvitem{Tools}{Git, Linux, Docker, LaTeX, MATLAB, Makefile}
+
+\section{Education}
+\cventry{2023--2025}{Master's Degree in Computer Science}{University of Trento}{Trento, Italy}{110/110 cum laude (GPA 4.0)}{
+\begin{itemize}
+    \item Focus: Development and experimental validation of firmware and drivers for battery less, intermittent computing systems, power profiling using digital oscilloscopes and logic analyzers, robotics systems.
+    \item Thesis: Exploring a Flooding-Based Wake-Up Radio Routing Protocol on a New Ultra-Low Power SoC for the IoT. 
+\end{itemize}
+}
+\cventry{2020--2023}{Bachelor's Degree in Computer Science}{University of Genova}{Genova, Italy}{110/110 cum laude (GPA 4.0)}{
+\begin{itemize}
+    \item Focus: Team working, Operating Systems, Computer Architecture, Software Engineering.
+    \item SWERC: Member of the first team at SWERC 2022/2023.
+\end{itemize}
+}
+\cventry{2020--2023}{JUMP,  Job-University Matching Project}{RUI Foundation}{Genova, Italy}{}{
+Interdisciplinary that focuses on the development of transferable skills across three main areas: soft skills, modern themes, and interdisciplinary courses.
+}
+
+\section{Others}
+\cvitem{Languages}{
+    Italian (Native), English (C1 level, FCE 182), 
+    Chinese (A1)
+}
+\cvitem{Interests}{
+\begin{minipage}[t]{0.90\textwidth}
+    Former debater, also studied chess for 12 years, participating in multiple tournaments organized by FIDE such as the international chess festival of Imperia. Currently studying mandarin Chinese with the goal of obtaining an HSK certification in the future.
+\end{minipage}
+}
+
+\end{document}
